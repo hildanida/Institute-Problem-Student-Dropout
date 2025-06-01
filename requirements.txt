@@ -1,8 +1,9 @@
-streamlit
-numpy
-pandas
-matplotlib
-seaborn
-plotly
-scikit-learn
-imbalanced-learn
+numpy==1.26.4
+pandas==2.1.4
+matplotlib==3.7.5
+matplotlib-inline==0.1.7
+seaborn==0.13.2
+plotly==5.23.0
+scikit-learn==1.6.1
+imbalanced-learn==0.0
+streamlit==1.37.1
