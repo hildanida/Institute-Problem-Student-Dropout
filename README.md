@@ -1,9 +1,9 @@
-# Institute Students Droput Problem
+# Institute Students Dropout Problem
 
 ## Business Understanding
 Jaya Jaya Institut adalah institusi pendidikan tinggi yang berdiri sejak tahun 2000 dan telah melahirkan lulusan‐lulusan berprestasi tinggi. Namun, belakangan ini institusi menghadapi tingkat dropout yang cukup tinggi, mengancam reputasi dan efektivitas program pembelajaran. Mahasiswa yang berhenti di tengah jalan bukan hanya merugikan individu secara finansial dan emosional, tetapi juga berdampak negatif pada citra serta sumber daya institusi (biaya operasional, biaya beasiswa, dan penggunaan fasilitas).
 
-Dengan latar belakang tersebut, Jaya Jaya Institut ingin memahami faktor‐faktor utama yang mendorong mahasiswa untuk berhenti kuliah (dropout). Data historis performa akademik dan demografis telah tersedia dalam bentuk dataset “students’ performance”. Tugas utama adalah mengolah data ini—dari eksplorasi awal sampai pemodelan prediktif dan visualisasi—agar tim manajemen dan pembimbing akademik dapat:
+Dengan latar belakang tersebut, Jaya Jaya Institut ingin memahami faktor‐faktor utama yang mendorong mahasiswa untuk berhenti kuliah (dropout). Data historis performa akademik dan demografis telah tersedia dalam bentuk dataset “students performance”. Tugas utama adalah mengolah data ini—dari eksplorasi awal sampai pemodelan prediktif dan visualisasi—agar tim manajemen dan pembimbing akademik dapat:
 1. Mendeteksi sedini mungkin mahasiswa yang berisiko tinggi dropout.
 2. Memberikan intervensi (bimbingan akademik dan dukungan finansial) secara tepat waktu.
 3. Memonitor perkembangan performa mahasiswa melalui dashboard interaktif.
@@ -45,7 +45,7 @@ Sumber data: [Data Students Performance](https://github.com/dicodingacademy/dico
 Setup environment:
 1. Clone Repository
 ```bash
-git clone https://github.com/hildanida/HR-Problem-Employee-Attrition.git
+git clone https://github.com/hildanida/Institute-Problem-Student-Dropout.git
 ```
 2. Creat Virtual Environment
 ```bash
@@ -79,9 +79,13 @@ import streamlit as st
 ## Machine Learning System
 Untuk membantu Jaya Jaya Institut memprediksi risiko mahasiswa yang akan dropout secara lebih dini, telah dibangun sebuah sistem prediksi berbasis web menggunakan Streamlit. Berikut langkahnya untuk menjalankan aplikasi ini secara lokal:
 ```bash
-streamlit run deployment.py
+streamlit run deployment-machine-learning.py
 ```
-Streamlit ini juga bisa dapat diakses melalui Streamlit Cloud [ini](https://institute-problem-student-dropout.streamlit.app/)
+Streamlit juga bisa dapat diakses melalui Streamlit Cloud melalui tautan [ini](https://institute-problem-student-dropout.streamlit.app/)
+
+## Business Dashboard
+![Dashboard Student](students-performance-dashboard.png)
+Dashboard ini [Students Performance Dashboard](https://public.tableau.com/views/StudentDropoutandGraduateAnalysis/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) memberikan gambaran menyeluruh mengenai kondisi akademik dan non-akademik mahasiswa, dengan fokus pada status dropout, kelulusan, dan masih terdaftar (enrolled). Dari total 4.424 mahasiswa, sekitar 32% mengalami dropout—angka yang cukup tinggi. Visualisasi memperlihatkan bahwa dropout lebih banyak terjadi pada mahasiswa laki-laki, usia <25 tahun, serta mereka yang memiliki nilai rendah pada semester pertama dan kedua. Mahasiswa yang belum melunasi biaya kuliah juga cenderung lebih rentan dropout, sementara penerima beasiswa menunjukkan kecenderungan lebih stabil dalam menyelesaikan studi. Selain itu, nilai awal masuk (admission grade) dan jurusan tertentu juga tampak memiliki korelasi terhadap keberlanjutan studi. Secara keseluruhan, dashboard ini menjadi alat penting untuk mendeteksi kelompok mahasiswa berisiko tinggi dan menjadi dasar bagi institusi dalam mengambil kebijakan strategis seperti pemberian bantuan finansial, pendampingan akademik, dan program bimbingan mahasiswa baru.
 
 ## Conclusion
 1. **Angka Dropout Tinggi**  
