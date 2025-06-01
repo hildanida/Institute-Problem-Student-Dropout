@@ -79,9 +79,9 @@ import streamlit as st
 ## Machine Learning System
 Untuk membantu Jaya Jaya Institut memprediksi risiko mahasiswa yang akan dropout secara lebih dini, telah dibangun sebuah sistem prediksi berbasis web menggunakan Streamlit. Berikut langkahnya untuk menjalankan aplikasi ini secara lokal:
 ```bash
-streamlit run deployment-machine-learning.py
+streamlit run app.py
 ```
-Streamlit juga bisa dapat diakses melalui Streamlit Cloud melalui tautan [ini](https://institute-problem-student-dropout.streamlit.app/)
+Streamlit juga bisa dapat diakses melalui Streamlit Cloud melalui tautan [ini](https://problem-student-dropout.streamlit.app/)
 
 ## Business Dashboard
 ![Dashboard Student](hildanida-dashboard.png)
