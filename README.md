@@ -84,7 +84,7 @@ streamlit run deployment-machine-learning.py
 Streamlit juga bisa dapat diakses melalui Streamlit Cloud melalui tautan [ini](https://institute-problem-student-dropout.streamlit.app/)
 
 ## Business Dashboard
-![Dashboard Student](students-performance-dashboard.png)
+![Dashboard Student](hildanida-dashboard.png)
 Dashboard ini [Students Performance Dashboard](https://public.tableau.com/views/StudentDropoutandGraduateAnalysis/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) memberikan gambaran menyeluruh mengenai kondisi akademik dan non-akademik mahasiswa, dengan fokus pada status dropout, kelulusan, dan masih terdaftar (enrolled). Dari total 4.424 mahasiswa, sekitar 32% mengalami dropout—angka yang cukup tinggi. Visualisasi memperlihatkan bahwa dropout lebih banyak terjadi pada mahasiswa laki-laki, usia <25 tahun, serta mereka yang memiliki nilai rendah pada semester pertama dan kedua. Mahasiswa yang belum melunasi biaya kuliah juga cenderung lebih rentan dropout, sementara penerima beasiswa menunjukkan kecenderungan lebih stabil dalam menyelesaikan studi. Selain itu, nilai awal masuk (admission grade) dan jurusan tertentu juga tampak memiliki korelasi terhadap keberlanjutan studi. Secara keseluruhan, dashboard ini menjadi alat penting untuk mendeteksi kelompok mahasiswa berisiko tinggi dan menjadi dasar bagi institusi dalam mengambil kebijakan strategis seperti pemberian bantuan finansial, pendampingan akademik, dan program bimbingan mahasiswa baru.
 
 ## Conclusion
