@@ -21,7 +21,7 @@ def load_cleaned_data(path="students_performance_cleaned.csv"):
     return df
 
 @st.cache_resource
-def load_model(path="students_performance_logreg.sav"):
+def load_model(path="model.sav"):
     """
     Load model pipeline (LogisticRegression terbaru) yang sudah disimpan.
     """
